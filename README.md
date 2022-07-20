@@ -14,10 +14,10 @@ Studying these 5 sections should cover enough material to complete the exercise 
 If you have any questions regarding the assignment, you can email hello@coachable.dev and we'll reply within 24 hours.
 
 ## Submisssion Instructions 
-1. Make you rown copy of [Coacahble Sorting Exercise](https://docs.google.com/document/d/1QomETPFW-I4rdbWpdGQvFONvQ8F9wFK6xhNErgohPkM/edit)
+1. Make your own copy of [Coacahble Sorting Exercise](https://docs.google.com/document/d/1QomETPFW-I4rdbWpdGQvFONvQ8F9wFK6xhNErgohPkM/edit)
 2. Fill in your answers in the table provided. 
 3. Make sure the document with your solutions is visible by anyone with the link.
-4. Lastly, email the link to hello@coachable.dev with the subject “Coachable Sorting Exercise”. 
+4. Lastly, email the link to hello@coachable.dev with the subject __"Coachable Sorting Exercise"__. 
 5. We'll follow up in a few days to verify your solutions or let you know if there are any errors.
 6. We'll send you a link to schedule a final interview with Coachable to discuss your thought process to the exercise.
 
