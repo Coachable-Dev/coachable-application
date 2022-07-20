@@ -1,3 +1,5 @@
+![logo.png](logo.png)
+
 # Coachable First Assignment
 As a part of your trial period, we’d like to give you a sense of the Coachable process.
 
@@ -17,7 +19,7 @@ We've provided a short exercise based on sorting algorithms where you will ident
 Studying these 5 sections should cover enough material to complete the exercise below. If you're still stuck after studying these for a while, feel free to use any additional resources online to study the assignment. There are practice exercises at the end of each section that we encourage you to try as these exercises prepare you well for the sorting exercise below. However, these exercises are not required. 
 
 ## Submisssion Instructions 
-1. Make your own copy of [Coachable First Assignment](https://docs.google.com/document/d/1QomETPFW-I4rdbWpdGQvFONvQ8F9wFK6xhNErgohPkM/edit)
+1. Make your own copy of [Coachable First Assignment](https://drive.google.com/file/d/1lj_W5VMpc2m9f-zkrnFooejpsi1JceB5/view)
 2. Fill in your answers in the table provided. 
 3. Make sure the document with your solutions is visible by anyone with the link.
 4. Lastly, email the link to hello@coachable.dev with the subject __"Coachable First Assignment"__. 
