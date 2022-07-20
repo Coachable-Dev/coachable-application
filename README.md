@@ -19,12 +19,11 @@ We've provided a short exercise based on sorting algorithms where you will ident
 Studying these 5 sections should cover enough material to complete the exercise below. If you're still stuck after studying these for a while, feel free to use any additional resources online to study the assignment. There are practice exercises at the end of each section that we encourage you to try as these exercises prepare you well for the sorting exercise below. However, these exercises are not required. 
 
 ## Submisssion Instructions 
-1. Make your own copy of [Coachable First Assignment](https://drive.google.com/file/d/1Bw80aRXRnRhJWQB0F1hCmPdRvJfY5aAx/view?usp=sharing)
-2. Fill in your answers in the table provided. 
-3. Make sure the document with your solutions is visible by anyone with the link.
-4. Lastly, email the link to hello@coachable.dev with the subject __"Coachable First Assignment"__. 
-5. We'll follow up in a few days to verify your solutions or let you know if there are any errors.
-6. We'll send you a link to schedule a final interview with Coachable to discuss your thought process to the exercise.
+1. The assignment is [Coachable First Assignment](https://drive.google.com/file/d/1Bw80aRXRnRhJWQB0F1hCmPdRvJfY5aAx/view?usp=sharing). Please use the above resources and ask us quesitons as needed.
+2. Complete the assignment and document your answers in any way you prefer. Here are some ways others have used: printing and writing answers, typing the answers to us on Slack, editing the pdf, etc.
+3. Share your solutions with us on Slack.
+4. We'll follow up within 24 hours to verify your solutions or let you know if there are any errors.
+5. We'll send you a link to schedule a final interview with Coachable to discuss your thought process to the first assignment.
 
 ## Moving Forward
 
