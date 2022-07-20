@@ -1,10 +1,10 @@
-# 2.3 Quicksort
+# Quicksort
 
 Quicksort is popular because it is not difficult to implement, works well for a variety of different kinds of input data, and is substantially faster than any other sorting method in typical applications. It is in-place (uses only a small auxiliary stack), requires time proportional to _N log N_ on the average to sort _N_ items, and has an extremely short inner loop.
 
 __The basic algorithm.__ Quicksort is a divide-and-conquer method for sorting. It works by _partitioning_ an array into two parts, then sorting the parts independently.
 
-![quicksort-overview](quicksort-overview.png)
+![quicksort-overview](src/quicksort-overview.png)
 
 The crux of the method is the partitioning process, which rearranges the array to make the following three conditions hold:
 
@@ -16,21 +16,21 @@ We achieve a complete sort by partitioning, then recursively applying the method
 
 __Partitioning.__ To complete the implementation, we need to implement the partitioning method. We use the following general strategy: First, we arbitrarily choose __a[lo]__ to be the partitioning item—the one that will go into its final position. Next, we scan from the left end of the array until we find an entry that is greater than (or equal to) the partitioning item, and we scan from the right end of the array until we find an entry less than (or equal to) the partitioning item.
 
-![partitioning-overview](partitioning-overview.png)
+![partitioning-overview](src/partitioning-overview.png)
 
 The two items that stopped the scans are out of place in the final partitioned array, so we exchange them. When the scan indices cross, all that we need to do to complete the partitioning process is to exchange the partitioning item __a[lo]__ with the rightmost entry of the left subarray (__a[j]__) and return its index __j__.
 
-![partitioning](partitioning.png)
+![partitioning](src/partitioning.png)
 
-__Quicksort.__ [quicksort.py](quicksort.py) is an implementation of quicksort, using the partitioning method described above.
+__Quicksort.__ [quicksort.py](src/quicksort.py) is an implementation of quicksort, using the partitioning method described above.
 
-![quicksort](quicksort.png)
+![quicksort](src/quicksort.png)
 
 __Implementation details.__ There are several subtle issues with respect to implementing quicksort that are reflected in this code and worthy of mention.
 
 - _Partitioning inplace._ If we use an extra array, partitioning is easy to implement, but not so much easier that it is worth the extra cost of copying the partitioned version back into the original.
 - _Staying in bounds._ If the smallest item or the largest item in the array is the partitioning item, we have to take care that the pointers do not run off the left or right ends of the array, respectively.
-- _Preserving randomness._ The random shuffle puts the array in random order. Since it treats all items in the subarrays uniformly, [quicksort.py](quicksort.py) has the property that its two subarrays are also in random order. This fact is crucial to the algorithm's predictability. An alternate way to preserve randomness is to choose a random item for partitioning within __partition()__.
+- _Preserving randomness._ The random shuffle puts the array in random order. Since it treats all items in the subarrays uniformly, [quicksort.py](src/quicksort.py) has the property that its two subarrays are also in random order. This fact is crucial to the algorithm's predictability. An alternate way to preserve randomness is to choose a random item for partitioning within __partition()__.
 - _Terminating the loop._ Properly testing whether the pointers have crossed is a bit trickier than it might seem at first glance. A common error is to fail to take into account that the array might contain other keys with the same value as the partitioning item.
 - _Handling items with keys equal to the partitioning item's key._ It is best to stop the left scan for items with keys greater than or equal to the partitioning item's key and the right scan for items less than or equal to the partitioning item's key. Even though this policy might seem to create unnecessary exchanges involving items with keys equal to the partitioning item's key, it is crucial to avoiding quadratic running time in certain typical applications.
 - _Terminating the recursion._ A common mistake in implementing quicksort involves not ensuring that one item is always put into position, then falling into an infinite recursive loop when the partitioning item happens to be the largest or smallest item in the array.
@@ -47,7 +47,7 @@ __Improvements.__ Quicksort was invented in 1960 by C. A. R. Hoare, and it has b
 
 __Visualization.__ Below is a visualization of quicksort with median-of-3 partitioning and cutoff for small subarrays.
 
-![quicksort-bars](quicksort-bars.png)
+![quicksort-bars](src/quicksort-bars.png)
 
 __Entropy-optimal sorting.__ Arrays with large numbers of duplicate sort keys arise frequently in applications. In such applications, there is potential to reduce the time of the sort from linearithmic to linear.
 
@@ -55,7 +55,7 @@ One straightforward idea is to partition the array into three parts, one each fo
 
 Dijkstra's solution is based on a single left-to-right pass through the array that maintains a pointer lt such that __a[lo..lt-1]__ is less than __v__, a pointer gt such that __a[gt+1..hi]__ is greater than __v__, and a pointer __i__ such that __a[lt..i-1]__ are equal to __v__, and __a[i..gt]__ are not yet examined.
 
-![partitioning3-overview](partitioning3-overview.png)
+![partitioning3-overview](src/partitioning3-overview.png)
 
 Starting with __i__ equal to lo we process __a[i]__ using the 3-way compare given us by the compareTo method to handle the three possible cases:
 
@@ -63,7 +63,7 @@ Starting with __i__ equal to lo we process __a[i]__ using the 3-way compare give
 - __a[i]__ greater than __v__: exchange __a[i]__ with __a[gt]__ and decrement __gt__
 - __a[i]__ equal to __v__: increment __i__
 
-![partitioning3](partitioning3.png)
+![partitioning3](src/partitioning3.png)
 
 
 (quicksort_3way.py)[quicksort_3way.py] is an implementation of this method.
@@ -72,9 +72,10 @@ __Proposition.__ Quicksort with 3-way partitioning is entropy-optimal.
 
 __Visualization.__ Below is a visualization of quicksort with 3-way partitioning.
 
-![quicksort3-bars](quicksort3-bars.png)
+![quicksort3-bars](src/quicksort3-bars.png)
 
 # Review Exercises
+Here are some practice exercises you can work on which will ultimately help with the take home. Please feel free to reach out on Slack if you have any questions about these exercises.
 
 1. Show, in the style of the trace given with partition(), how that method partitions the array `E A S Y Q U E S T I O N`.
 2. Show, in the style of the quicksort trace, how quicksort sorts the array `E A S Y Q U E S T I O N`. (For the purposes of this exercise, ignore the initial shuffle.)

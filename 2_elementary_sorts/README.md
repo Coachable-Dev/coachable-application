@@ -1,9 +1,9 @@
 
 
-# 2.1 Elementary Sorts
-In this section, we shall study two elementary sorting methods (selection sort and insertion sort)
+# Elementary Sorts: Selection and Insertion Sort
+In this section, we'll study two elementary sorting methods (selection sort and insertion sort)
 
-**Rules of the game.** Our primary concern is algorithms for rearranging arrays of items where each item contains a key. The objective is to rearrange the items such that their keys are in ascending order. With but a few exceptions, our sort code refers to the data only through two operations: the method _less()__ that compares objects and the method _exch()_ that exchanges them.
+**Rules of sorting.** Our primary concern is algorithms for rearranging arrays of items where each item contains a key. The objective is to rearrange the items such that their keys are in ascending order. With but a few exceptions, our sort code refers to the data only through two operations: the method _less()__ that compares objects and the method _exch()_ that exchanges them.
 
 ```
 # returns a boolean that evaluates (v < m) 
@@ -28,16 +28,16 @@ In addition, *v.compareTo(w)* must throw an error if _v_ and _w_ are of incompat
 Below is an example of a *compareTo* 
 
 
-**Selection sort.** One of the simplest sorting algorithms works as follows: First, find the smallest item in the array, and exchange it with the first entry. Then, find the next smallest item and exchange it with the second entry. Continue in this way until the entire array is sorted. This method is called selection sort because it works by repeatedly selecting the smallest remaining item. [selection_sort.py](selection_sort.py) is an implementation of this method.
+**Selection sort.** One of the simplest sorting algorithms works as follows: First, find the smallest item in the array, and exchange it with the first entry. Then, find the next smallest item and exchange it with the second entry. Continue in this way until the entire array is sorted. This method is called selection sort because it works by repeatedly selecting the smallest remaining item. [selection_sort.py](src/selection_sort.py) is an implementation of this method.
 
-![selection_sort.png](selection.png)
+![selection_sort.png](src/selection.png)
 
 **Proposition.** Selection sort uses _~N<sup>2</sup>/2_ compares and n exchanges to sort an array of length _N_.
 
 
-**Insertion sort.** The algorithm that people often use to sort bridge hands is to consider the cards one at a time, inserting each into its proper place among those already considered (keeping them sorted). In a computer implementation, we need to make space for the current item by moving larger items one position to the right, before inserting the current item into the vacated position. [insertion_sort.py](insertion_sort.py) is an implementation of this method, which is called insertion sort.
+**Insertion sort.** The algorithm that people often use to sort bridge hands is to consider the cards one at a time, inserting each into its proper place among those already considered (keeping them sorted). In a computer implementation, we need to make space for the current item by moving larger items one position to the right, before inserting the current item into the vacated position. [insertion_sort.py](src/insertion_sort.py) is an implementation of this method, which is called insertion sort.
 
-![insertion_sort](insertion.png)
+![insertion_sort](src/insertion.png)
 
 **Proposition.** For randomly ordered arrays of length _N_ with with distinct keys, insertion sort uses _~N<sup>2</sup>/4_ compares and _~N<sup>2</sup>/4_ exchanges on the average. The worst case is _~ N<sup>2</sup>/2_ compares and _~ N<sup>2</sup>/2_ exchanges and the best case is _N-1_ compares and _0_ exchanges.
 Insertion sort works well for certain types of nonrandom arrays that often arise in practice, even if they are huge. An inversion is a pair of keys that are out of order in the array. For instance, E X A M P L E has 11 inversions: E-A, X-A, X-M, X-P, X-L, X-E, M-L, M-E, P-L, P-E, and L-E. If the number of inversions in an array is less than a constant multiple of the array size, we say that the array is partially sorted.
@@ -49,9 +49,10 @@ Insertion sort works well for certain types of nonrandom arrays that often arise
 **Visualizing sorting algorithms.** We use a simple visual representation to help describe the properties of sorting algorithms. We use vertical bars, to be sorted by their heights.
 
 
-![sorting_bars](bars.png)
+![sorting_bars](src/bars.png)
 
-# Review Exercises
+# Review Exercises. 
+Here are some practice exercises you can work on which will ultimately help with the take home. Please feel free to reach out on Slack if you have any questions about these exercises.
 
 1. Show in the style of the example trace with selection sort, how selection sort sorts the array
 

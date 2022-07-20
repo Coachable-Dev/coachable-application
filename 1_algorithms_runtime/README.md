@@ -79,6 +79,8 @@ __Proposition.__ In the resizing-array implementation of __Bag__, __Stack__, and
 __Memory usage.__ To estimate how much memory our program uses, we can count up the number of variables and weight them by the number of bytes according to their type. Often this will be done in terms of the input using big `O` notation like with runtimes.
 
 ## Review Exercises
+Here are some practice exercises you can work on which will ultimately help with the take home. Please feel free to reach out on Slack if you have any questions about these exercises.
+
 1. Give the order of growth (as a function of N) of the running times of each of the following code fragments:
 ```
 # Block (a)
