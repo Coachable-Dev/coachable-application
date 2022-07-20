@@ -19,7 +19,7 @@ We've provided a short exercise based on sorting algorithms where you will ident
 Studying these 5 sections should cover enough material to complete the exercise below. If you're still stuck after studying these for a while, feel free to use any additional resources online to study the assignment. There are practice exercises at the end of each section that we encourage you to try as these exercises prepare you well for the sorting exercise below. However, these exercises are not required. 
 
 ## Submisssion Instructions 
-1. Make your own copy of [Coachable First Assignment](FirstAssignment.png)
+1. Make your own copy of [Coachable First Assignment](https://drive.google.com/file/d/1Bw80aRXRnRhJWQB0F1hCmPdRvJfY5aAx/view?usp=sharing)
 2. Fill in your answers in the table provided. 
 3. Make sure the document with your solutions is visible by anyone with the link.
 4. Lastly, email the link to hello@coachable.dev with the subject __"Coachable First Assignment"__. 
