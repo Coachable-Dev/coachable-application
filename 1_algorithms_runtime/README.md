@@ -1,4 +1,4 @@
-# 1.4 Analysis of Algorithms
+# Analyzing Algorithms
 
 
 
@@ -56,14 +56,14 @@ __Mathematical models.__ The total running time of a program is determined by tw
 
 - _Cost model._ We focus attention on properties of algorithms by articulating a cost model that defines the basic operations. For example, an appropriate cost model for the 3-sum problem is the number of times we access an array entry, for read or write.
 
-__Property.__ The order of growth of the running time of [three_sum.py](src/three_sum.py) is N^3.
+__Property.__ The order of growth of the running time of [three_sum.py](src/three_sum.py) is `N^3`.
 
-__Proposition.__ The brute-force 3-sum algorithm uses ~ _N^3 / 2_ array accesses to compute the number of triples that sum to 0 among N numbers.
+__Proposition.__ The brute-force 3-sum algorithm uses `~N^3 / 2` array accesses to compute the number of triples that sum to 0 among N numbers.
 
 __Designing faster algorithms.__ One of the primary reasons to study the order of growth of a program is to help design a faster algorithm to solve the same problem. Using mergesort and binary search, we develop faster algorithms for the 2-sum and 3-sum problems.
 
-- _2-sum._ The brute-force solution [two_sum.py](src/two_sum.py) takes time proportional to N^2. [two_sum_fast.py](src/two_sum_fast.py) solves the 2-sum problem in time proportional to N log N time.
-- _3-sum._ [three_sum_fast.py](src/three_sum_fast.py) solves the 3-sum problem in time proportional to N^2 log N time.
+- _2-sum._ The brute-force solution [two_sum.py](src/two_sum.py) takes time proportional to N^2. [two_sum_fast.py](src/two_sum_fast.py) solves the 2-sum problem in time proportional to `N log N` time.
+- _3-sum._ [three_sum_fast.py](src/three_sum_fast.py) solves the 3-sum problem in time proportional to `N^2 log N` time.
 
 __Coping with dependence on inputs.__ For many problems, the running time can vary widely depending on the input.
 
@@ -76,7 +76,7 @@ __Proposition.__ In the linked-list implementation of __Bag__, __Stack__, and __
 
 __Proposition.__ In the resizing-array implementation of __Bag__, __Stack__, and __Queue__, starting from an empty data structure, any sequence of N operations takes time proportional to N in the worst case (amortized constant time per operation).
 
-__Memory usage.__ To estimate how much memory our program uses, we can count up the number of variables and weight them by the number of bytes according to their type. 
+__Memory usage.__ To estimate how much memory our program uses, we can count up the number of variables and weight them by the number of bytes according to their type. Often this will be done in terms of the input using big `O` notation like with runtimes.
 
 ## Review Exercises
 1. Give the order of growth (as a function of N) of the running times of each of the following code fragments:
@@ -107,16 +107,7 @@ while i < N:
     i = i * 2
 ```
 
-2. __Hot or cold.__ Your goal is the guess a secret integer between 1 and N. You repeatedly guess integers between 1 and N. After each guess you learn if it equals the secret integer (and the game stops); otherwise (starting with the second guess), you learn if the guess is hotter (closer to) or colder (farther from) the secret number than your previous guess. Design an algorithm that finds the secret number in ~ 2 lg N guesses. Then, design an algorithm that finds the secret number in ~ 1 lg N guesses.
-Hint: use binary search for the first part. For the second part, first design an algorithm that solves the problem in ~1 lg N guesses assuming you are permitted to guess integers in the range -N to 2N.
+2. __Find a duplicate.__ Given an array of N elements in which each element is an integer between 1 and N, write an algorithm to determine if there are any duplicates. Your algorithm should run in linear time and use O(1) extra space. Hint: you may destroy the array.
 
-3. __Majority.__ Given an array of N strings. An element is a majority if it appears more than N/2 times. Devise an algorithm to identify the majority if it exists. Your algorithm should run in linearithmic time.
-
-4. __Identity.__ Given an array a of N distinct integers (positive or negative) in ascending order. Devise an algorithm to find an index i such that a[i] = i if such an index exists. Hint: binary search.
-
-5. __Find a duplicate.__ Given an array of N elements in which each element is an integer between 1 and N, write an algorithm to determine if there are any duplicates. Your algorithm should run in linear time and use O(1) extra space. Hint: you may destroy the array.
-
-6. __Anagrams.__ Design a O(N log N) algorithm to read in a list of words and print out all anagrams. For example, the strings "comedian" and "demoniac" are anagrams of each other. Assume there are N words and each word contains at most 20 letters. Designing a O(N^2) algorithms should not be too difficult, but getting it down to O(N log N) requires some cleverness.
-
-7. __Monotone 2d array.__ Give an n-by-n array of elements such that each row is in ascending order and each column is in ascending order, devise an O(n) algorithm to determine if a given element x in the array. You may assume all elements in the n-by-n array are distinct.
+3. __Monotone 2d array.__ Give an n-by-n array of elements such that each row is in ascending order and each column is in ascending order, devise an O(n) algorithm to determine if a given element x in the array. You may assume all elements in the n-by-n array are distinct.
 
