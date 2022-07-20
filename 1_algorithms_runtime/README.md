@@ -17,7 +17,7 @@ __Scientific method.__ The very same approach that scientists use to understand 
 
 The experiments we design must be _reproducible_ and the hypotheses that we formulate must be _falsifiable_.
 
-__Observations.__ Our first challenge is to determine how to make quantitative measurements of the running time of our programs. [stopwatch.py](stopwatch.py) is a data type that measures the elapsed running time of a program
+__Observations.__ Our first challenge is to determine how to make quantitative measurements of the running time of our programs. [stopwatch.py](src/src/stopwatch.py) is a data type that measures the elapsed running time of a program
 
 ```
 class Stopwatch:
@@ -29,9 +29,9 @@ class Stopwatch:
 ```
 
 
-[three_sum.py](three_sum.py) counts the number of triples in a file of N integers that sums to 0 (ignoring integer overflow). [doubling_test.py](doubling_test.py) generates a sequence of random input arrays, doubling the array size at each step, and prints the running times of __ThreeSum.count()__ for each input size. It also prints the ratios between the inputs.
+[three_sum.py](src/three_sum.py) counts the number of triples in a file of N integers that sums to 0 (ignoring integer overflow). [doubling_test.py](src/doubling_test.py) generates a sequence of random input arrays, doubling the array size at each step, and prints the running times of __ThreeSum.count()__ for each input size. It also prints the ratios between the inputs.
 
-![loglog](loglog.png)
+![loglog](src/loglog.png)
 
 
 
@@ -39,7 +39,7 @@ __Mathematical models.__ The total running time of a program is determined by tw
 
 - _Tilde approximations._ We use tilde approximations, where we throw away low-order terms that complicate formulas. We write _~f(N)_ to represent any function that when divided by _f(N)_ approaches 1 as _N_ grows. We write _g(N) ~ f(N)_ to indicate that _g(N) / f(N)_ approaches 1 as _N_ grows.
 
-![tilde](tilde.png)
+![tilde](src/tilde.png)
 
 - _Order-of-growth classifications._ Most often, we work with tilde approximations of the form _g(N) ~ a f(N)_ where _f(N) = N^b log^c N_ and refer to _f(N)_ as the The order of growth of _g(N)_. We use just a few structural primitives (statements, conditionals, loops, nesting, and method calls) to implement algorithms, so very often the order of growth of the cost is one of just a few functions of the problem size _N_.
 
@@ -47,23 +47,23 @@ __Mathematical models.__ The total running time of a program is determined by tw
 | Description  | Order of Growth | Typical Code Framework | Description        | Example           |
 |--------------|-----------------|------------------------|--------------------|-------------------|
 | Constant     | 1               | a = b + c              | statement          | add two numbers   |
-| Logarithmic  | log _N_         | [binary_search.py](binary_search.py)      | divide in half     | binary search     |
-| Linear       | _N_             | ![linear_example](linear_example.png)                  | for loop           | find the maximum  |
-| Linearithmic | _N_ log _N_     | [mergesort.py](../../2_sorting/2_mergesort/mergesort.py)                  | divide and conquer | mergesort         |
-| Quadratic    | _N_<sup>2</sup> | ![quadratic_example](quadratic_example.png)                  | double for loop    | check all pairs   |
-| Cubic        | _N_<sup>3</sup> | ![cubic_example](cubic_example.png)                  | triple for loop    | check all triples |
-| Exponential  | 2<sup>_N_</sup> | [subsets.py](subsets.py)                  | exhaustive search  | check all subsets |
+| Logarithmic  | log _N_         | [binary_search.py](src/binary_search.py)      | divide in half     | binary search     |
+| Linear       | _N_             | ![linear_example](src/linear_example.png)                  | for loop           | find the maximum  |
+| Linearithmic | _N_ log _N_     | [mergesort.py](src/../../2_sorting/2_mergesort/mergesort.py)                  | divide and conquer | mergesort         |
+| Quadratic    | _N_<sup>2</sup> | ![quadratic_example](src/quadratic_example.png)                  | double for loop    | check all pairs   |
+| Cubic        | _N_<sup>3</sup> | ![cubic_example](src/cubic_example.png)                  | triple for loop    | check all triples |
+| Exponential  | 2<sup>_N_</sup> | [subsets.py](src/subsets.py)                  | exhaustive search  | check all subsets |
 
 - _Cost model._ We focus attention on properties of algorithms by articulating a cost model that defines the basic operations. For example, an appropriate cost model for the 3-sum problem is the number of times we access an array entry, for read or write.
 
-__Property.__ The order of growth of the running time of [three_sum.py](three_sum.py) is N^3.
+__Property.__ The order of growth of the running time of [three_sum.py](src/three_sum.py) is N^3.
 
 __Proposition.__ The brute-force 3-sum algorithm uses ~ _N^3 / 2_ array accesses to compute the number of triples that sum to 0 among N numbers.
 
 __Designing faster algorithms.__ One of the primary reasons to study the order of growth of a program is to help design a faster algorithm to solve the same problem. Using mergesort and binary search, we develop faster algorithms for the 2-sum and 3-sum problems.
 
-- _2-sum._ The brute-force solution [two_sum.py](two_sum.py) takes time proportional to N^2. [two_sum_fast.py](two_sum_fast.py) solves the 2-sum problem in time proportional to N log N time.
-- _3-sum._ [three_sum_fast.py](three_sum_fast.py) solves the 3-sum problem in time proportional to N^2 log N time.
+- _2-sum._ The brute-force solution [two_sum.py](src/two_sum.py) takes time proportional to N^2. [two_sum_fast.py](src/two_sum_fast.py) solves the 2-sum problem in time proportional to N log N time.
+- _3-sum._ [three_sum_fast.py](src/three_sum_fast.py) solves the 3-sum problem in time proportional to N^2 log N time.
 
 __Coping with dependence on inputs.__ For many problems, the running time can vary widely depending on the input.
 
