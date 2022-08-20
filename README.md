@@ -20,7 +20,7 @@ Studying these 5 sections should cover enough material to complete the exercise 
 
 ## Submisssion Instructions 
 1. The assignment is [Coachable First Assignment](https://www.canva.com/design/DAFG1GlD-1Y/zAOskBrDV9-pJpWTgpX32Q/view?utm_content=DAFG1GlD-1Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview). Please use the above resources and ask us quesitons as needed.
-2. Complete the assignment. To document your answers, you can use the template from the link above and edit the template using Canva (free editing software). If you have any questions about editing with Canva, please let us know on Slack.
+2. Complete the assignment. To document your answers, you can use the template from the link above by clicking __Use Template__ and edit the template using Canva (free software). If you have any questions about editing with Canva, please let us know on Slack.
 3. Share your solutions with us on Slack. We may ask some follow up questions over Slack.
 4. We'll follow up within 24 hours to verify your solutions or let you know if there are any errors.
 5. We'll send you a link to schedule a final interview with Coachable to discuss your thought process to the first assignment.
