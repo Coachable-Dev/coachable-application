@@ -5,7 +5,7 @@ As a part of your trial period, we’d like to give you a sense of the Coachable
 
 If you’re seeing this repository, you should have received a congratulatory conditional acceptance invitation. In this email you will find a Slack Channel, this is dedicated to answering your questions about the sorting assignment we’ve provided. We recommend completing this assignment within 2 weeks of joining Coachble.  
 
-If you're having trouble making progress on the assignment, let us know by asking us in Slack - that's what we're here for. We've found the students that have been most successful in Coachable are the ones that very proactive and reach out to the coaches to help them when they get stuck. We recommend you follow their example.
+If you're having trouble making progress on the assignment, let us know by asking us in Slack - that's what we're here for. We've found the students that have been most successful in Coachable are the ones that  proactive and reach out to the coaches for help whenever they get stuck. We recommend you do this too.
 
 ## Helpful Resources
 We've provided a short exercise based on sorting algorithms where you will identify various arrays at intermediate steps in the sorting process. We've provided several resources to help with this exercise and linked them below.
