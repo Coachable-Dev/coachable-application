@@ -3,9 +3,9 @@
 # Coachable First Assignment
 As a part of your trial period, we’d like to give you a sense of the Coachable process.
 
-If you’re seeing this repository, you should have received a congratulatory conditional acceptance invitation. In this email you will find a Slack Channel, this is dedicated to answering your questions about the sorting assignment we’ve provided.
+If you’re seeing this repository, you should have received a congratulatory conditional acceptance invitation. In this email you will find a Slack Channel, this is dedicated to answering your questions about the sorting assignment we’ve provided. We recommend completing this assignment within 2 weeks of joining Coachble.  
 
-Asking questions in the Slack Channel, while not required, will help us pair you with a great coach that matches your learning style. Additionally, this is an indicator that helps us learn more about how proactive you are and will assist you in understanding the concepts more quickly.
+If you're having trouble making progress on the assignment, let us know by asking us in Slack - that's what we're here for. We've found the students that have been most successful in Coachable are the ones that very proactive in reaching out to the coaches to help them out when they get stuck or have questions. We recommend you follow suit.
 
 ## Helpful Resources
 We've provided a short exercise based on sorting algorithms where you will identify various arrays at intermediate steps in the sorting process. We've provided several resources to help with this exercise and linked them below.
@@ -19,9 +19,9 @@ We've provided a short exercise based on sorting algorithms where you will ident
 Studying these 5 sections should cover enough material to complete the exercise below. If you're still stuck after studying these for a while, feel free to use any additional resources online to study the assignment. There are practice exercises at the end of each section that we encourage you to try as these exercises prepare you well for the sorting exercise below. However, these exercises are not required. 
 
 ## Submisssion Instructions 
-1. The assignment is [Coachable First Assignment](https://drive.google.com/file/d/1Bw80aRXRnRhJWQB0F1hCmPdRvJfY5aAx/view?usp=sharing). Please use the above resources and ask us quesitons as needed.
-2. Complete the assignment and document your answers in any way you prefer. Here are some ways others have used: printing and writing answers, typing the answers to us on Slack, editing the pdf, etc.
-3. Share your solutions with us on Slack.
+1. The assignment is [Coachable First Assignment](https://www.canva.com/design/DAFG1GlD-1Y/zAOskBrDV9-pJpWTgpX32Q/view?utm_content=DAFG1GlD-1Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview). Please use the above resources and ask us quesitons as needed.
+2. Complete the assignment. To document your answers, you can use the template from the link above and edit the template using Canva (free editing software). If you have any questions about editing with Canva, please let us know on Slack.
+3. Share your solutions with us on Slack. We may ask some follow up questions over Slack.
 4. We'll follow up within 24 hours to verify your solutions or let you know if there are any errors.
 5. We'll send you a link to schedule a final interview with Coachable to discuss your thought process to the first assignment.
 

@@ -72,23 +72,3 @@ E A S Y Q U E S T I O N
 5. Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?
 
 6. __Expensive exchange.__ A clerk at a shipping company is charged with the task of rearranging a number of large crates in order of the time they are to be shipped out. Thus, the cost of compares is very low (just look at the labels) relative to the cost of exchanges (move the crates). The warehouse is nearly full: there is extra space sufficient to hold any one of the crates, but not two. Which sorting method should the clerk use?
-
-7. __Stupidsort.__ Analyze the running time (worst case and best case), correctness, and stability of the following sorting algorithm. Scan the array from left to right until you find two consecutive items that are out-of-place. Swap them, and start over from the beginning. Repeat until the scan reaches the end of the array.
-
-```
-for i in range(1, N):
-    if (less(a[i], a[i-1])):
-        exch(i, i-1)
-        i = 0
-```
-Consider also the following recursive variant and analyze the worst case memory usage.
-```
-@staticmethod
-def sort(a):
-    for i in range(1, len(a)):
-        if (less(a[i], a[i-1])):
-            exch(i, i-1);
-            sort(a);
-```
-
-8. __Bogosort.__ Bogosort is a randomized algorithm that works by throwing the N cards up in the air, collecting them, and checking whether they wound up in increasing order. If they didn't, repeat until they do. Implement bogosort using the shuffling algorithm from Section 1.4. Estimate the running time as a function of N.

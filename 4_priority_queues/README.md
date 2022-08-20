@@ -135,6 +135,5 @@ P R I O * R * * I * T * Y * * * Q U E * * * U * E
 5. Suppose that your application will have a huge number of find the maximum operations, but a relatively small number of insert and remove the maximum operations. Which priority queue implementation do you think would be most effective: heap, unordered array, ordered array?
 6. __Best, average, and worst case of heapsort.__ What's are the best case, average case, and worst case number of compares for heapsorting an array of length n?
 7. __Top k sums of two sorted arrays.__ Given two sorted arrays `a[]` and `b[]`, each of length n, find the largest k sums of the form `a[i] + b[j]`.
-8. __Challenge Question (this is tough!): Dynamic-median finding.__  Design a data type that supports insert in logarithmic time, find the median in constant time, and remove the median in logarithmic time.
 
 
