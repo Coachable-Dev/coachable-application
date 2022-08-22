@@ -12,9 +12,10 @@ We've provided a short exercise based on sorting algorithms where you will ident
 
 1. [Algorithms and Runtimes](/1_algorithms_runtime)
 2. [Selection Sort and Insertion Sort](/2_elementary_sorts)
-3. [Mergesort](/3_mergesort/)
-4. [Heaps and Priority Queues](/4_priority_queues/)
-5. [Quicksort](/5_quicksort/)
+3. [Shellsort](/shellsort)
+4. [Mergesort](/3_mergesort/)
+5. [Heaps and Priority Queues](/4_priority_queues/)
+6. [Quicksort](/5_quicksort/)
 
 Studying these 5 sections should cover enough material to complete the exercise below. If you're still stuck after studying these for a while, feel free to use any additional resources online to study the assignment. There are practice exercises at the end of each section that we encourage you to try as these exercises prepare you well for the sorting exercise below. However, these exercises are not required. 
 
