@@ -19,16 +19,36 @@ We've provided a short exercise based on sorting algorithms where you will ident
 
 Studying these 5 sections should cover enough material to complete the exercise below. If you're still stuck after studying these for a while, feel free to use any additional resources online to study the assignment. There are practice exercises at the end of each section that we encourage you to try as these exercises prepare you well for the sorting exercise below. However, these exercises are not required. 
 
-## Submisssion Instructions 
+## Submisssion Instructions for First Assignment
+
 1. The assignment is [Coachable First Assignment](https://www.canva.com/design/DAFG1GlD-1Y/zAOskBrDV9-pJpWTgpX32Q/view?utm_content=DAFG1GlD-1Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview). Please use the above resources and ask us quesitons as needed.
 2. Complete the assignment. To document your answers, you can use the template from the link above by clicking __Use Template__ and edit the template using Canva (free software). If you have any questions about editing with Canva, please let us know on Slack.
 3. Share your solutions with us on Slack. We may ask some follow up questions over Slack.
 4. We'll follow up within 24 hours to verify your solutions or let you know if there are any errors.
-5. We'll send you a link to schedule a final interview with Coachable to discuss your thought process to the first assignment.
+5. We'll send you a link to schedule a final interview with Coachable which will cover the following.
+    a. __Introductions.__ We'd like to learn a bit more about your background and will follow up on any parts of the application we'd like to go into more detail.
+    b. __Technical Questions__. Prepare to discuss your solutions to the sorting identification exercise. If you feel confident in your ability to explain your solutions and follow-up questions about each sorting algorithm it should be pretty smooth.
+    c. __Learn About Coachable and Q&A__. You'll get to learn more about the program and have the chance to ask any questions about the program.
 
-## Moving Forward
+## FAQ about Coachable
+Q. How long does the program take?
 
-1. __Introductions.__ We'd like to learn a bit more about your background and will follow up on any parts of the application we'd like to go into more detail.
-2. __Technical Questions__. Prepare to discuss your solutions to the sorting identification exercise. If you feel confident in your ability to explain your solutions and follow-up questions about each sorting algorithm it should be pretty smooth.
-3. __Learn About Coachable and Q&A__. You'll get to learn more about the program and have the chance to ask any questions about the program.
+A. It takes an average of 4 months after starting Coachable to get a job offer when spending 25 hours per week on Coachable. Of course, this is just an estimate and not a guarantee. Your timeline will vary depending on your background, time commitment, etc. 
 
+Q. How much can I expect to make after Coachable?
+
+A. Here's what you can expect in the first 4 years of working at a large tech company.
+
+__Year 1: 125k effective compensation net paying Coachable.__ The median Coachable graduate makes~160k for a non-remote job in a city like Seattle/Boston/Austin, etc (i.e. not NY/SF). Your effective pretax income is at least 125k after paying 15% to Coachable.
+__Year 2: 190k total compensation (no Coachable payment).__ FAANG-level company salaries increase 15-20% per year for median performance so now your total compensation increases to ~190k.
+__Year 3: 225k total compensation.__ It could be higher if you get promoted within 2 years which is pretty common. We leave it at the same growth assuming not promoted.
+__Year 4: 300k total compensation.__ It's expected to get promoted within 3 years with this increase in compensation. (see https://levels.fyi and filter for offers in the last 3 months as salaries have increased significantly in the past 2 years)
+
+Q. How much does Coachable cost? How do I pay Coachable, when, and how much?
+
+A. The pay structure for the program is through an income share agreement. For the income share, we guarantee that you'll get a job paying at least $100k - if you get a job paying less than this, then you do not pay anything. Once you get a job paying over $100k, then you would pay Coachable 15% of the total salary after you start working and this 15% would be paid for 1 year only. Let's look at the below example.
+Let's say you join Amazon in February of 2023 for an annual salary of 160k - 15% of 160k = $24,000. Dividing that by 12, the monthly payments would be $2,000. You would make your first payment to payment of 2,000 to Coachable in March of 2023 and you would continue monthly until a total of 12 payments are made. The last payment would be in February 2024.
+
+Q. Do I pay anything before joining?
+
+A. There is also a $500 deposit due at the start of the program. This deposit is fully refundable if you go through the program and do not get a job paying at least 100k within 6 months. We have this deposit because as we have a pay after getting the job model, we people would join and not show up to sessions or complete the material. With the deposit we have more confidence those joining are committed to following through with the program.
