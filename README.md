@@ -40,10 +40,10 @@ Studying these 5 sections should cover enough material to complete the exercise 
 
 **A.** Here's what you can expect in the first 4 years of working at a large tech company.
 
-__Year 1: 125k effective compensation net paying Coachable.__ The median Coachable graduate makes~160k for a non-remote job in a city like Seattle/Boston/Austin, etc (i.e. not NY/SF). Your effective pretax income is at least 125k after paying 15% to Coachable.
-__Year 2: 190k total compensation (no Coachable payment).__ FAANG-level company salaries increase 15-20% per year for median performance so now your total compensation increases to ~190k.
-__Year 3: 225k total compensation.__ It could be higher if you get promoted within 2 years which is pretty common. We leave it at the same growth assuming not promoted.
-__Year 4: 300k total compensation.__ It's expected to get promoted within 3 years with this increase in compensation. (see https://levels.fyi and filter for offers in the last 3 months as salaries have increased significantly in the past 2 years)
+* __Year 1: 125k effective compensation net paying Coachable.__ The median Coachable graduate makes~160k for a non-remote job in a city like Seattle/Boston/Austin, etc (i.e. not NY/SF). Your effective pretax income is at least 125k after paying 15% to Coachable.
+* __Year 2: 190k total compensation (no Coachable payment).__ FAANG-level company salaries increase 15-20% per year for median performance so now your total compensation increases to ~190k.
+* __Year 3: 225k total compensation.__ It could be higher if you get promoted within 2 years which is pretty common. We leave it at the same growth assuming not promoted.
+* __Year 4: 300k total compensation.__ It's expected to get promoted within 3 years with this increase in compensation. (see https://levels.fyi and filter for offers in the last 3 months as salaries have increased significantly in the past 2 years)
 
 ##
 **Q.** How much does Coachable cost? How do I pay Coachable, when, and how much?
