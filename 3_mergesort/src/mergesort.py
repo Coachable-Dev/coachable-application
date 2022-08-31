@@ -52,9 +52,10 @@ def merge(a_list, l, m, r):
 def mergesortTopDown(a_list,l,r): 
 	if l < r: 
   
-		# Same as (l+r)/2, but avoids overflow for 
+		# Same as (l+r)//2, but avoids overflow for 
 		# large l and h 
-		m = (l+(r-1))/2
+		# Use // 2 for integer division. 5 // 2 = 2.
+		m = (l+(r-1))//2
   
 		# Recursive call to sort first and second halves 
 		mergesortTopDown(a_list, l, m) 
