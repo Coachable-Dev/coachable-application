@@ -31,24 +31,25 @@ Studying these 5 sections should cover enough material to complete the exercise 
     * __Learn About Coachable and Q&A__. You'll get to learn more about the program and have the chance to ask any questions about the program.
     
 ## FAQ about Coachable
-Q. How long does the program take?
+**Q.** How long does the program take?
 
-A. It takes an average of 4 months after starting Coachable to get a job offer when spending 25 hours per week on Coachable. Of course, this is just an estimate and not a guarantee. Your timeline will vary depending on your background, time commitment, etc. 
+**A.** It takes an average of 4 months after starting Coachable to get a job offer when spending 25 hours per week on Coachable. Of course, this is just an estimate and not a guarantee. Your timeline will vary depending on your background, time commitment, etc. 
 
-Q. How much can I expect to make after Coachable?
+##
+**Q.** How much can I expect to make after Coachable?
 
-A. Here's what you can expect in the first 4 years of working at a large tech company.
+**A.** Here's what you can expect in the first 4 years of working at a large tech company.
 
 __Year 1: 125k effective compensation net paying Coachable.__ The median Coachable graduate makes~160k for a non-remote job in a city like Seattle/Boston/Austin, etc (i.e. not NY/SF). Your effective pretax income is at least 125k after paying 15% to Coachable.
 __Year 2: 190k total compensation (no Coachable payment).__ FAANG-level company salaries increase 15-20% per year for median performance so now your total compensation increases to ~190k.
 __Year 3: 225k total compensation.__ It could be higher if you get promoted within 2 years which is pretty common. We leave it at the same growth assuming not promoted.
 __Year 4: 300k total compensation.__ It's expected to get promoted within 3 years with this increase in compensation. (see https://levels.fyi and filter for offers in the last 3 months as salaries have increased significantly in the past 2 years)
 
-Q. How much does Coachable cost? How do I pay Coachable, when, and how much?
+**Q.** How much does Coachable cost? How do I pay Coachable, when, and how much?
 
-A. The pay structure for the program is through an income share agreement. For the income share, we guarantee that you'll get a job paying at least $100k - if you get a job paying less than this, then you do not pay anything. Once you get a job paying over $100k, then you would pay Coachable 15% of the total salary after you start working and this 15% would be paid for 1 year only. Let's look at the below example.
+**A.** The pay structure for the program is through an income share agreement. For the income share, we guarantee that you'll get a job paying at least $100k - if you get a job paying less than this, then you do not pay anything. Once you get a job paying over $100k, then you would pay Coachable 15% of the total salary after you start working and this 15% would be paid for 1 year only. Let's look at the below example.
 Let's say you join Amazon in February of 2023 for an annual salary of 160k - 15% of 160k = $24,000. Dividing that by 12, the monthly payments would be $2,000. You would make your first payment to payment of 2,000 to Coachable in March of 2023 and you would continue monthly until a total of 12 payments are made. The last payment would be in February 2024.
 
-Q. Do I pay anything before joining?
+**Q.** Do I pay anything before joining?
 
-A. There is also a $500 deposit due at the start of the program. This deposit is fully refundable if you go through the program and do not get a job paying at least 100k within 6 months. We have this deposit because as we have a pay after getting the job model, we people would join and not show up to sessions or complete the material. With the deposit we have more confidence those joining are committed to following through with the program.
+**A.** There is also a $500 deposit due at the start of the program. This deposit is fully refundable if you go through the program and do not get a job paying at least 100k within 6 months. We have this deposit because as we have a pay after getting the job model, we people would join and not show up to sessions or complete the material. With the deposit we have more confidence those joining are committed to following through with the program.
