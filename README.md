@@ -26,10 +26,10 @@ Studying these 5 sections should cover enough material to complete the exercise 
 3. Share your solutions with us on Slack. We may ask some follow up questions over Slack.
 4. We'll follow up within 24 hours to verify your solutions or let you know if there are any errors.
 5. We'll send you a link to schedule a final interview with Coachable which will cover the following.
-    a. __Introductions.__ We'd like to learn a bit more about your background and will follow up on any parts of the application we'd like to go into more detail.
-    b. __Technical Questions__. Prepare to discuss your solutions to the sorting identification exercise. If you feel confident in your ability to explain your solutions and follow-up questions about each sorting algorithm it should be pretty smooth.
-    c. __Learn About Coachable and Q&A__. You'll get to learn more about the program and have the chance to ask any questions about the program.
-
+    *  __Introductions.__ We'd like to learn a bit more about your background and will follow up on any parts of the application we'd like to go into more detail.
+    * __Technical Questions__. Prepare to discuss your solutions to the sorting identification exercise. If you feel confident in your ability to explain your solutions and follow-up questions about each sorting algorithm it should be pretty smooth.
+    * __Learn About Coachable and Q&A__. You'll get to learn more about the program and have the chance to ask any questions about the program.
+    
 ## FAQ about Coachable
 Q. How long does the program take?
 
