@@ -1,5 +1,6 @@
 ![logo.png](logo.png)
 
+##### Table of Contents
 - [Coachable First Assignment](#coachable-first-assignment)
 - [Helpful Resources](#helpful-resources)
 - [How to Submit Your First Assignment](#how-to-submit-your-first-assignment)
