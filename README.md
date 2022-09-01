@@ -30,7 +30,40 @@ Studying these 5 sections should cover enough material to complete the exercise 
     * __Technical Questions__. Prepare to discuss your solutions to the sorting identification exercise. If you feel confident in your ability to explain your solutions and follow-up questions about each sorting algorithm it should be pretty smooth.
     * __Learn About Coachable and Q&A__. You'll get to learn more about the program and have the chance to ask any questions about the program.
     
+
+## First Assignment Q&A
+
+**Q.** When the assignment says that columns B-I are intermediate columns, what does that mean?
+
+**A.** All of columns B-I started from column A. Let's say you thought that Selection Sort was column B. That would mean that if you applied the Selection Sort algorithm to column A and you were to print the array every iteration of the algorithm. Then one of those print statements be equal to column B. (Hint: Selection Sort is NOT column B).
+
+You do not know far in the process the sorting algorithm is, all you know is that the sorting is in progress (i.e. has started, but not ended yet). One hint is that the snapshot taken in each of the columns, is at a point where you can distinguish the algorithm uniquely i.e. there is a property about that intermediate step that will only allow it to be only 1 of algorithms provided.
+
+##
+**Q.** Is there a way to check my answers to the first assignment?
+
+**A.**  If you want any review or help with the assignment, send us your answers on Slack. We encourage you to send them over, even if you aren't 100% of your answers. Regardless of if your answers are right or wrong, we'll ask follow up quesitons to dive a bit deeper on your thought process. As you think about our follow up questions, you'll realize which ones you may have gotten wrong or will have more confidence in the ones you got correct. Either way it's good for learning, so make sure to be active and ask us questions in Slack. Here are example of some questions that have really helped students in the past.
+
+1. What are the key differences between bottom up and top down mergesort? What part of the intermediate array would you look for to distinguish between either one?
+2. What are the key differences between quicksort standard and 3-way quicksort? What part of the intermediate array would you look for to identify either one?
+3. When looking at selection sort, what is one property that you will always notice about the array at intermediate steps?
+4. When looking at insertion sort, what is one property that you will always notice about the array at intermediate steps?
+
+##
+**Q.** Should I submit anything other than my solutions? 
+
+**A.** Yes, as outlined in the [Coachable First Assignment](https://www.canva.com/design/DAFG1GlD-1Y/zAOskBrDV9-pJpWTgpX32Q/view?utm_content=DAFG1GlD-1Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview) you should write up 2-3 sentences explaining why you assigned a certain column to each algorithm. Even if you trace through the given inputs to figure out which column goes with that algorithm, you should be able to find a short explanation based on a property of the array. For example, one could say _Column J is the sorted output because each subsequent element is greater than or equal to the one before it_. By identifying this property of the array and connecting it to the corresponding algorithm will demonstrate that you have a deeper understanding of how each algorithm works. It's not only important to get the right answer (perhaps by dry running the code), but even more important to understand why each answer is correct.
+
+
+
+
+
 ## FAQ about Coachable
+**Q.** Do I need to complete the first assignment to get into Coachable?
+
+**A.** The goal of the first assignment is to give a sample of Coachable. We'll be here to answer questions and give support similar to what the program would actually be like. If you do find the material is a bit challenging with that support, then you may not be fully ready for the program. But I think you're already being very proactive and asking questions which is what we've found makes people very successful! We don't expect people coming into the program to know everything before joining, but we do expect you to be proactive and make the most out of the coaches and resources - like I said, asking questions trying to get more clarity on the topics is how it's done!
+
+##
 **Q.** How long does the program take?
 
 **A.** It takes an average of 4 months after starting Coachable to get a job offer when spending 25 hours per week on Coachable. Of course, this is just an estimate and not a guarantee. Your timeline will vary depending on your background, time commitment, etc. 
@@ -49,7 +82,7 @@ Studying these 5 sections should cover enough material to complete the exercise 
 **Q.** How much does Coachable cost? How do I pay Coachable, when, and how much?
 
 **A.** The pay structure for the program is through an income share agreement. For the income share, we guarantee that you'll get a job paying at least $100k - if you get a job paying less than this, then you do not pay anything. Once you get a job paying over $100k, then you would pay Coachable 15% of the total salary after you start working and this 15% would be paid for 1 year only. Let's look at the below example.
-Let's say you join Amazon in February of 2023 for an annual salary of 160k - 15% of 160k = $24,000. Dividing that by 12, the monthly payments would be $2,000. You would make your first payment to payment of 2,000 to Coachable in March of 2023 and you would continue monthly until a total of 12 payments are made. The last payment would be in February 2024.
+Let's say you join Amazon in February of 2023 for an annual salary of 160k - 15% of 160k = $24,000. Dividing that by 12, the monthly payments would be $2,000. You would make your first payment to payment of 2,000 to Coachable in March of 2023 and you would continue monthly until a total of 12 payments are made. The last payment would be in February 2024. The 15% is on your __pre-tax__ income.
 
 ##
 **Q.** Do I pay anything before joining?
