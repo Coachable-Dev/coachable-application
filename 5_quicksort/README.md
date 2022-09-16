@@ -66,7 +66,7 @@ Starting with __i__ equal to lo we process __a[i]__ using the 3-way compare give
 ![partitioning3](src/partitioning3.png)
 
 
-(quicksort_3way.py)[quicksort_3way.py] is an implementation of this method.
+[quicksort_3way.py](src/quicksort_3way.py) is an implementation of this method.
 
 __Proposition.__ Quicksort with 3-way partitioning is entropy-optimal.
 
