@@ -46,6 +46,10 @@ Studying these 5 sections should cover enough material to complete the exercise 
 
 You do not know far in the process the sorting algorithm is, all you know is that the sorting is in progress (i.e. has started, but not ended yet). One hint is that the snapshot taken in each of the columns, is at a point where you can distinguish the algorithm uniquely i.e. there is a property about that intermediate step that will only allow it to be only 1 of algorithms provided.
 
+**Q.** What does "no shuffle" for the quicksort options?
+
+**A.** Quicksort will often shuffle the array to reduce the chance of worst-case runtime. For the purposes of this assignment, you can assume that the first element of the array and subsequent subarrays will be the pivot.
+
 ##
 **Q.** Is there a way to check my answers to the first assignment?
 
